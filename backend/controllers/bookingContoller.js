@@ -6,7 +6,7 @@ import moment from 'moment'
 import Stripe from 'stripe'
 
 const stripe = new Stripe(
-  'sk_test_51LQQfcDVLv2wJ0j5tDTmDV6gl3BbSYRHdeP17XtnNwRHCMqoPGN6EtBk9EypXes48wxQZBsPGcvYi9eCO4C9DZC400Gn1vFLBf'
+  ''
 )
 
 const bookRoom = asyncHandler(async (req, res) => {
