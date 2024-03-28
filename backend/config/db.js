@@ -18,7 +18,7 @@ const connectDB = async () => {
       try {
 
             //added mongoDB Atlas connection
-            const conn = await mongoose.connect(process.env.MONGO_URI || "mongodb+srv://seona:seona@cluster0.0p1p6fp.mongodb.net/?retryWrites=true&w=majority", {
+            const conn = await mongoose.connect(process.env.MONGO_URI{
                   useUnifiedTopology: true,
                   useNewUrlParser: true,
                   useCreateIndex: true
